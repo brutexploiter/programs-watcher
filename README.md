@@ -34,7 +34,7 @@ cd programs-watcher
 3. In the `config.yml` file, replace `<YOUR DISCORD WEBHOOK>` with your Discord webhook URL.
 4. Run:
  ```bash
-docker-compose up -d
+docker compose up -d
 ```
 ## Option 2: Manual Installation (Recommended for desktop and laptop usage)
 
