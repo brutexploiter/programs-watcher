@@ -1,5 +1,5 @@
 discordWebhook:
-  programs_watcher: <discord-webhook>
+  programs_watcher: https://discord.com/api/webhooks/1182229333335617536/Z2RH4fdDyxjJAaxg9w1VL74g_PSF19rhXY-x8lhdG7znxCX9_0arVpTwAKStGD5ZhKOF
 mongoDB:
   uri: mongodb://db:27017/
   database: programs_watcher
@@ -8,7 +8,7 @@ platforms:
     url: https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/bugcrowd.json
     monitor:
       rdp: true
-      vdp: true
+      vdp: false
       specific_programs: []
       excluded_programs: []
     notifications:
@@ -24,7 +24,7 @@ platforms:
     url: https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/hackerone.json
     monitor:
       rdp: true
-      vdp: true
+      vdp: false
       specific_programs: []
       excluded_programs: 
         - https://hackerone.com/alshaya?type=team
@@ -41,7 +41,7 @@ platforms:
     url: https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/intigriti.json
     monitor:
       rdp: true
-      vdp: true
+      vdp: false
       specific_programs: []
       excluded_programs: [] 
     notifications:
@@ -56,7 +56,7 @@ platforms:
     url: https://raw.githubusercontent.com/Osb0rn3/bugbounty-targets/main/programs/yeswehack.json
     monitor:
       rdp: true
-      vdp: true
+      vdp: false
       specific_programs: []
       excluded_programs: []
     notifications:
