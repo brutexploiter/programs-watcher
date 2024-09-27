@@ -53,7 +53,7 @@ python3 main.py
 7. Crontab
 ```bash
 crontab -e
-0 * * * * cd /home/ubuntu/programs-watcher && /usr/bin/python3 main.py >> /home/ubuntu/programs-watcher/logs.txt 2>&1
+*/30 * * * * cd /home/ubuntu/programs-watcher && /usr/bin/python3 main.py >> /home/ubuntu/programs-watcher/logs.txt 2>&1
 ```
 ## Option 2: Docker Installation (Recommended for server environments)
 
